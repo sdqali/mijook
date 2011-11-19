@@ -1,4 +1,12 @@
 Mijook::Application.routes.draw do
+  post "pause" => "songs#pause"
+  post "stop" => "songs#stop"
+  post "play" => "songs#play"
+  post "empty" => "songs#empty"
+  post "next" => "songs#next"
+  post "prev" => "songs#prev"
+  post "vol_up" => "songs#vol_up"
+  post "vol_down" => "songs#vol_down"
   resources :songs
 
   # The priority is based upon order of creation:

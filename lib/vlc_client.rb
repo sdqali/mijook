@@ -23,6 +23,10 @@ class VlcClient
     end
   end
 
+  def pause
+    post(command(:command => "pl_pause"))
+  end
+  
   def stop
     post(command(:command => "pl_stop"))
   end
@@ -37,6 +41,14 @@ class VlcClient
 
   def empty
     post(command(:command => "pl_empty"))
+  end
+
+  def vol_up
+    post(command(:command => "volume", :val => "%2B20"))
+  end
+
+  def vol_down
+    post(command(:command => "volume", :val => "-20"))
   end
 
   def command(args)

@@ -21,3 +21,19 @@
 <br />
 
 <%= link_to 'New Song', new_song_path %>
+<br />
+<%= link_to 'Pause', pause_path, :method => :post %>
+<br />
+<%= link_to 'Stop', stop_path, :method => :post %>
+<br />
+<%= link_to 'Play', play_path, :method => :post %>
+<br />
+<%= link_to 'Clear', empty_path, :method => :post %>
+<br />
+<%= link_to 'Song++', next_path, :method => :post %>
+<br />
+<%= link_to 'Song--', prev_path, :method => :post %>
+<br />
+<%= link_to 'Vol--', vol_down_path, :method => :post %>
+<br />
+<%= link_to 'Vol++', vol_up_path, :method => :post %>

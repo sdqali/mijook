@@ -1,13 +1,14 @@
-* Pause a 
-* Next/Prev
-* Now playing
+* DONE Pause a 
+* DONE Next/Prev
+* DONE Vol ++/--  
+* TODO Now playing
 ** Youtube metadata
-* Remove songs
-* Stop
-* Clear playlist
-* Next in playlist
-* Youtube search
-* Start VLC when the app starts
-* CSS hackery
-* Users - who played what?
-* Playlist that reflects the VLC playlist 
+* TODO Remove songs
+* DONE Stop
+* TODO Clear playlist
+* TODO Next in playlist
+* TODO Youtube search
+* TODO Start VLC when the app starts
+* TODO CSS hackery
+* TODO Users - who played what?
+* TODO Playlist that reflects the VLC playlist 
